@@ -1,0 +1,145 @@
+.product-store {
+    font-family: 'Roboto', sans-serif;
+    font-size: 15px;
+    line-height: 20px;
+    color: #FFF;
+}
+
+.product-store > .title {
+    font-size: 25px;
+    margin-bottom: 50px;
+    display: inline-block;
+}
+
+.product-store > .item {
+    font-size: 20px;
+    margin-bottom: 30px;
+}
+
+.product-store > .item.-heart {
+    position: absolute;
+    top: 5px;
+    transform: translateX(-100%);
+    left: -47px;
+    cursor: pointer;
+}
+
+.product-store > .item.-star {
+    margin-bottom: 10px;
+    cursor: pointer;
+}
+
+.product-store > .item .icon {
+    transition: transform 100ms linear;
+}
+
+.product-store > .item .icon:hover {
+    transform: scale(1.2);
+}
+
+.product-store .icon.-active {
+    display: none;
+}
+
+.product-store > .item.-active .icon {
+    display: none;
+}
+
+.product-store > .item.-active .icon.-active {
+    display: inline-block;
+}
+
+.product-store .star {
+    display: inline-block;
+}
+
+.product-store .star.-active > .icon {
+    display: none;
+}
+
+.product-store .star.-active > .-active {
+    display: block;
+}
+
+.product-store > .item.-star + .item {
+    margin-left: 7px;
+}
+
+.product-store > .item.-info {
+    width: 200px;
+    text-align: right;
+}
+
+.product-store > .item.-last {
+    margin-bottom: 60px;
+}
+
+.product-store .contrast {
+    text-transform: uppercase;
+    float: left;
+}
+
+.product-store > .text {
+    font-size: 18px;
+    line-height: 30px;
+    margin-bottom: 30px;
+}
+
+.product-store .action {
+    color: inherit;
+    font-size: 20px;
+    text-decoration: none;
+}
+
+@media (max-width:1335px) {
+    .product-store > .title {
+        margin-bottom: 30px;
+    }
+
+    .product-store > .item {
+        margin-bottom: 15px;
+    }
+
+    .product-store > .item.-last {
+        margin-bottom: 30px;
+    }
+    .product-store > .item.-heart {
+        left: -25px;
+    }
+}
+
+@media (max-width:940px) {
+    .product-store > .title {
+        display: block;
+        margin-left: 20px;
+    }
+
+    .product-store > .item.-info {
+        display: block;
+    }
+
+    .product-store > .item {
+        display: inline-block;
+    }
+
+    .product-store > .item.-heart {
+        position: relative;
+        transform: translateX(10%) translateY(-180%);
+    }
+
+    .product-store > .item.-star {
+        margin-bottom: 30px;
+        cursor: pointer;
+        margin-right: 10px;
+        margin-left: -20px;
+    }
+
+    .product-store > .item.-info {
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .product-store > .text {
+        margin: 0 30px 30px;
+    }
+}

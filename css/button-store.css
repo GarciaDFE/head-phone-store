@@ -1,0 +1,79 @@
+.button-store {
+    display: inline-block;
+    box-sizing: border-box;
+    background-color: #252c41;
+    color: #ffffff;
+    font-family: 'Roboto', sans-serif;
+    font-size: 20px;
+    width: 200px;
+    height: 60px;
+    text-align: center;
+    line-height: 60px;
+    text-decoration: none;
+    border: none;
+    bottom: 0;
+    cursor: pointer;
+    transition: all 300ms linear;
+}
+
+.button-store:hover,
+.button-store:focus {
+    background-color: #FFFFFF;
+    color: #e24647;
+}
+
+.button-store:active {
+    transform: scale(0.9);
+}
+
+.button-store.-second { 
+    background-color: transparent;
+    border: 2px #fff solid;
+    width: 220px;
+    line-height: 56px;
+    margin-right: 35px;
+}
+
+.button-store.-second:hover,
+.button-store.-second:focus {
+    background-color: #FFFFFF;
+    color: #e24647;
+}
+
+.button-store > button,
+.button-store > a {
+    font-size: inherit;
+    background-color: inherit;
+    border: none;
+    color: inherit;
+    text-decoration: inherit;
+}
+
+@media (max-width:1080px) {
+    .button-store {
+        font-size: 18px;
+        width: 180px;
+        height: 40px;
+        line-height: 40px;
+    }
+    .button-store.-second {
+        background-color: transparent;
+        border: 2px #fff solid;
+        width: 200px;
+        line-height: 36px;
+        margin-right: 20px;
+    }
+}
+
+@media (max-width:410px) {
+    .button-store,
+    .button-store.-second {
+        display: block;
+        margin: 0 auto;
+        width: 80%;
+    }
+    .button-store.-second {
+        margin-bottom: 15px;
+        width: 80%;
+    }
+}
