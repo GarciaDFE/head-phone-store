@@ -10,7 +10,7 @@
     display: inline-block;
     background: transparent;
     border: none;
-    border-bottom: 1px solid #FFFFFF;
+    border-bottom: 1px #000 solid;
     color: inherit;
     font-family: Arial;
     font-size: 20px;
@@ -20,7 +20,7 @@
 }
 
 .input-search > .content::placeholder {
-    color: #FFF;
+    color: #000;
 }
 
 .input-search > .icon {
@@ -32,7 +32,7 @@
         position: absolute;
         top: 0;
         left: 0;
-        background-color: #fff;
+        background-color: #f2f2f2;
         transform: translateX(-90%);
         transition: transform 300ms linear;
     }
@@ -63,12 +63,13 @@
         position: absolute;
         top: 0;
         left: 0;
-        background-color: #fff;
+        background-color: #f2f2f2;
         transform: translateX(-86%);
         transition: transform 300ms linear;
     }
     .input-search > .content {
         padding: 6.5px;
-        width: 175px;
+        width: 200px;
+        margin-right: 5px;
     }
 }

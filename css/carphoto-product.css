@@ -1,0 +1,30 @@
+.carphoto-product > .imgProduct {
+    width: 95%;
+    margin: 10px 0 0 70px;
+}
+
+@media (max-width: 1335px) {
+    .carphoto-product {
+        width: 40%;
+        margin-right: 100px;
+        border-radius: 0 100px 100px 0;
+    }
+}
+
+@media (max-width: 940px) {
+    .carphoto-product {
+        background-image: none;
+        background-color: #fff;
+        display: block;
+        width: 100%;
+        padding: 0;
+        border-radius: 0;
+        text-align: center;
+        margin: 0 auto 30px auto;
+    }
+    .carphoto-product > .imgProduct {
+        width: 70%;
+        margin: 0;
+        padding-top: 20px;
+    }
+}

@@ -1,14 +1,14 @@
 .button-store {
     display: inline-block;
     box-sizing: border-box;
-    background-color: #252c41;
-    color: #ffffff;
+    background-color: #e24647;
+    color: #FFF;
     font-family: 'Roboto', sans-serif;
-    font-size: 20px;
+    font-size: 18px;
     width: 200px;
-    height: 60px;
+    height: 50px;
     text-align: center;
-    line-height: 60px;
+    line-height: 50px;
     text-decoration: none;
     border: none;
     bottom: 0;
@@ -18,8 +18,8 @@
 
 .button-store:hover,
 .button-store:focus {
-    background-color: #FFFFFF;
-    color: #e24647;
+    background-color: #1c68ea;
+    color: #FFF;
 }
 
 .button-store:active {
@@ -28,16 +28,17 @@
 
 .button-store.-second { 
     background-color: transparent;
-    border: 2px #fff solid;
-    width: 220px;
-    line-height: 56px;
+    border: 2px #e24647 solid;
+    width: 200px;
+    line-height: 50px;
     margin-right: 35px;
+    color: #e24647;
 }
 
 .button-store.-second:hover,
 .button-store.-second:focus {
-    background-color: #FFFFFF;
-    color: #e24647;
+    background-color: #e24647;
+    color: #FFF;
 }
 
 .button-store > button,

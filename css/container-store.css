@@ -1,8 +1,8 @@
 .container-store {
     width: 90%;
-    max-width: 1335px;
-    background-color: #e24647;
-    padding: 55px 60px 165px 0;
+    max-width: 1200px;
+    background-color: #FFF;
+    padding: 50px 60px 100px 0;
     position: absolute;
     left: 50%;
     top: 50%;
@@ -10,11 +10,9 @@
     -webkit-box-shadow: 0px 0px 39px 0px rgba(50, 50, 50, 0.4);
     -moz-box-shadow: 0px 0px 39px 0px rgba(50, 50, 50, 0.4);
     box-shadow: 0 0 39px 0 rgba(50, 50, 50, 0.4);
-
-
 }
 
-@media (max-width: 1490px), (max-height: 900px) {
+@media (max-width: 1200px), (max-height: 600px) {
     .container-store {
         position: static;
         transform: none;
@@ -23,9 +21,9 @@
     }   
 }
 
-@media (max-height: 940px) {
+@media (max-height: 600px) {
     .container-store {
-        max-width: 1335px;
+        max-width: 1200px;
         margin-left: auto;
         margin-right: auto;
     }   

@@ -15,7 +15,9 @@
         <link rel="stylesheet" href="css/container-store.css">
         <link rel="stylesheet" href="css/header-store.css">
         <link rel="stylesheet" href="css/input-search.css">
-        <link rel="stylesheet" href="css/photo-product.css">
+        <link rel="stylesheet" href="css/main-carrousel.css">
+        <link rel="stylesheet" href="css/carphoto-product.css">
+        <!--<link rel="stylesheet" href="css/photo-product.css">-->
         <link rel="stylesheet" href="css/wrap-product.css">
         <link rel="stylesheet" href="css/product-store.css">
         <link rel="stylesheet" href="css/button-store.css">
@@ -45,9 +47,38 @@
                     </ul>
                 </nav>
             </header>
-            <figure class="photo-product">
-                <img class="imgProduct" src="img/imgHeadphone.png" alt="Imagem de fone de ouvido">
-            </figure>
+
+            <section class="main-carrousel">
+                <ol class="bullets">
+                    <li class="bullet -first -isActive"><a   href="#first">Primeira</a></li>
+                    <li class="bullet -second"><a href="#second">Segunda</a></li>
+                    <li class="bullet -third"><a href="#third">Terceira</a></li>
+                    <li class="bullet -forth"><a href="#forth">Quarta</a></li>
+                </ol>
+                <ol class="colors">
+                    <li id="first" class="color -isActive">
+                        <figure class="carphoto-product">
+                            <img class="imgProduct" src="img/imgHeadphoneRed.png" alt="Imagem de fone de ouvido">
+                        </figure>
+                    </li>
+                    <li id="second" class="color">
+                        <figure class="carphoto-product">
+                            <img class="imgProduct" src="img/imgHeadphoneBlue.png" alt="Imagem de fone de ouvido">
+                        </figure>
+                    </li>
+                    <li id="third" class="color">
+                        <figure class="carphoto-product">
+                            <img class="imgProduct" src="img/imgHeadphoneGreen.png" alt="Imagem de fone de ouvido">
+                        </figure>
+                    </li>
+                    <li id="forth" class="color">
+                        <figure class="carphoto-product">
+                            <img class="imgProduct" src="img/imgHeadphoneYellow.png" alt="Imagem de fone de ouvido">
+                        </figure>
+                    </li>
+                </ol>
+            </section>
+
             <section class="wrap-product">
                 <dl class="product-store">
                     <dt class="title">Fone top, feliz e caro</dt>
@@ -83,7 +114,7 @@
                     <dl class="item -info"><strong class="contrast">Frete</strong> $ 15</dl>
                     <dl class="item -info -last"><strong class="contrast">Preço</strong> $ 100</dl>
                     <dd class="text">
-                        Fone TOP com um cor feliz que não tem fio. A cor também é algo que impressiona junto com o  seu layout modernão! Ele é caro? É! Mas compre que você não vai se arrepender e se você se arrepender pode vender no mercado livre..kkkk
+                        Fone TOP com cores felizes que não tem fio. Cada cor também é algo que impressiona junto com o seu layout moderno! Ele é caro? É! Mas compre que você não vai se arrepender e se você se arrepender pode vender no mercado livre..kkkk
                     </dd>
                     <dd class="more">
                         <a class="action" href="">Saiba mais...</a>
@@ -96,6 +127,7 @@
             </section>
         </div>
         <script src="js/header-store.js"></script>
+        <script src="js/main-carrousel.js"></script>
         <script src="js/product-store.js"></script>
         <script src="js/home.js"></script>
         <script src="js/input-search.js"></script>

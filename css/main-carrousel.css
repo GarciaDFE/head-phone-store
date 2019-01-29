@@ -1,0 +1,59 @@
+.main-carrousel {
+    display: inline-block;
+    position: relative;
+    background-color: #FFF;
+    width: 40%;
+    height: 500px;
+    vertical-align: middle;
+    margin-right: 150px;
+    border-radius: 0 150px 150px 0;
+}
+
+.main-carrousel .color {
+    box-sizing: border-box;
+    position: absolute;
+    top: 0;
+    width: 95%;
+}
+
+.main-carrousel .color.-isActive {
+    z-index: 1;
+}
+
+.main-carrousel .bullets {
+    position: relative;
+    text-align: center;
+    display: inline-block;
+    width: 50px;
+    top: 50%;
+    transform: translateY(-50%);
+    z-index: 5;
+}
+
+.main-carrousel .bullet {
+    width: 12px;
+    height: 12px;
+    margin: 20px 0 20px 60px;
+    opacity: 0.50;
+    border-radius: 50%;
+    text-indent: -9999px;
+    cursor: pointer;
+    transition: opacity 200ms linear;
+}
+
+.main-carrousel .bullet.-first {
+    background-color: rgb(230, 53, 53);
+}
+.main-carrousel .bullet.-second {
+    background-color: rgb(41, 119, 237);
+}
+.main-carrousel .bullet.-third{
+    background-color: rgb(52, 208, 52);
+}
+.main-carrousel .bullet.-forth {
+    background-color: rgb(223, 206, 13);
+}
+
+.main-carrousel .bullet.-isActive {
+    opacity: 1;
+}
