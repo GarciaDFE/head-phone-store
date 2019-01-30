@@ -8,12 +8,14 @@
 .product-store > .title {
     font-size: 25px;
     margin-bottom: 40px;
-    display: inline-block;
+    display: block;
 }
 
 .product-store > .item {
     font-size: 20px;
+    font-weight: bold;
     margin-bottom: 15px;
+    display: inline-block;
 }
 
 .product-store > .item.-heart {
@@ -66,7 +68,6 @@
 }
 
 .product-store > .item.-info {
-    width: 200px;
     text-align: right;
 }
 
@@ -77,6 +78,8 @@
 .product-store .contrast {
     text-transform: uppercase;
     float: left;
+    font-weight: normal;
+    width: 300px;
 }
 
 .product-store > .text {
@@ -91,7 +94,7 @@
     text-decoration: none;
 }
 
-@media (max-width:1335px) {
+@media (max-width:1200px) {
     .product-store > .title {
         margin-bottom: 30px;
     }
@@ -108,7 +111,7 @@
     }
 }
 
-@media (max-width:940px) {
+@media (max-width:1000px) {
     .product-store > .title {
         display: block;
         margin-left: 20px;

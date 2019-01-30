@@ -64,12 +64,14 @@
         top: 0;
         left: 0;
         background-color: #f2f2f2;
-        transform: translateX(-86%);
+        transform: translateX(-85%);
         transition: transform 300ms linear;
     }
     .input-search > .content {
         padding: 6.5px;
         width: 200px;
         margin-right: 5px;
+        border-bottom: none;
+
     }
 }

@@ -2,11 +2,14 @@
     color: #000000;
     margin: 0 0 100px 60px;
     z-index: 10;
+    background-color: #fff;
 }
 
 .header-store > .title {
     font-size: 40px;
     font-family: 'Roboto', sans-serif;
+    font-weight: bold;
+    color: #e24647;
     text-transform: uppercase;
     float: left;
     cursor: pointer;
@@ -45,14 +48,14 @@
 
 .header-store .action:after {
   content:'';
-  height: 1px;
+  height: 2px;
   width: 100%;
   display: block;
-  background-color: #f2f2f2;
+  background-color: #000;
   bottom: 0;
   transform: scaleX(0);
   transform-origin: center left; /* ordem eixo Y e X */
-  transition: transform 300ms linear;
+  transition: transform 200ms linear;
 }
 
 .header-store .action:hover:after {
@@ -61,7 +64,7 @@
 
 @media (max-width: 1200px) {
     .header-store {
-        margin-left: 0;
+        margin: 0 0 60px 0;
     }
 
     .header-store > .title {
@@ -77,11 +80,6 @@
     }
 }
 
-@media (max-width: 940px) {
-    .header-store {
-        margin: 0 0 40px 0;
-    }
-}
 
 @media (max-width: 550px) {
     .header-store > .navigation {

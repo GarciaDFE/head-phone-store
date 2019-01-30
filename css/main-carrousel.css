@@ -1,7 +1,7 @@
 .main-carrousel {
     display: inline-block;
     position: relative;
-    background-color: #FFF;
+    background-color: #fff;
     width: 40%;
     height: 500px;
     vertical-align: middle;
@@ -56,4 +56,26 @@
 
 .main-carrousel .bullet.-isActive {
     opacity: 1;
+}
+
+@media (max-width: 1000px) {
+    .main-carrousel {
+        display: inline-block;
+        position: relative;
+        width: 100%;
+        border-radius: 0;
+    }
+}
+
+@media (max-width: 370px) {
+    .main-carrousel {
+        display: inline-block;
+        position: relative;
+        width: 100%;
+        border-radius: 0;
+        height: 450px;
+    }
+    .main-carrousel .bullets {
+        margin-left: -30px; 
+    }
 }
