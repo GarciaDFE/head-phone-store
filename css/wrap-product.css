@@ -26,13 +26,13 @@
 
     .wrap-product > .buttons {
         position: relative;
-        bottom: 80px;
+        bottom: 50px;
     }
 }
 
-@media (max-width:410px) {
+@media (max-width:480px) {
     .wrap-product > .buttons {
         position: relative;
-        bottom: 150px;
+        bottom: 120px;
     }
 }

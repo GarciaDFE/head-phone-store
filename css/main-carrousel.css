@@ -21,7 +21,7 @@
 }
 
 .main-carrousel .bullets {
-    position: relative;
+    position: absolute;
     text-align: center;
     display: inline-block;
     width: 50px;
@@ -60,22 +60,32 @@
 
 @media (max-width: 1000px) {
     .main-carrousel {
-        display: inline-block;
-        position: relative;
+        display: block;
         width: 100%;
-        border-radius: 0;
+    }
+
+    .main-carrousel .bullets {
+        text-align: center;
+        display: block;
+        width: 100%;
     }
 }
 
-@media (max-width: 370px) {
+@media (max-width: 500px) {
     .main-carrousel {
         display: inline-block;
         position: relative;
-        width: 100%;
         border-radius: 0;
         height: 450px;
+
+    }
+}
+@media (max-width: 410px) {
+    .main-carrousel {
+        height: 400px;
+
     }
     .main-carrousel .bullets {
-        margin-left: -30px; 
+        margin-left: -20px; 
     }
 }

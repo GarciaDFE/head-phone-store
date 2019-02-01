@@ -10,33 +10,14 @@
     -webkit-box-shadow: 0px 0px 39px 0px rgba(50, 50, 50, 0.4);
     -moz-box-shadow: 0px 0px 39px 0px rgba(50, 50, 50, 0.4);
     box-shadow: 0 0 39px 0 rgba(50, 50, 50, 0.4);
+    overflow-x: hidden;
 }
 
-@media (max-width: 1200px), (max-height: 600px) {
+@media (max-width: 1200px) {
     .container-store {
         position: static;
         transform: none;
         width: 100%;
-        max-width: 100%;
+        padding: 50px 0 125px 0;
     }   
-}
-
-@media (max-height: 600px) {
-    .container-store {
-        max-width: 1200px;
-        margin-left: auto;
-        margin-right: auto;
-    }   
-}
-
-@media (max-width: 990px) {
-    .container-store {
-        padding-right: 0px;
-    }
-}
-
-@media (max-width: 940px) {
-    .container-store {
-        padding-bottom: 100px;
-    }
 }
