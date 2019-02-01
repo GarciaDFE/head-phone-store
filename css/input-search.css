@@ -42,6 +42,10 @@
         transition: transform 300ms linear;
     }
 
+    .input-search > .content {
+        border-bottom: none;
+    }
+
     .input-search > .content::placeholder {
         color: #000;
     }
@@ -71,7 +75,5 @@
         padding: 6.5px;
         width: 200px;
         margin-right: 5px;
-        border-bottom: none;
-
     }
 }
