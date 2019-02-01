@@ -44,6 +44,7 @@
 
 .header-store .item.-last {
     margin-right: 0;
+    cursor: pointer;
 }
 
 .header-store .action:after {

@@ -24,6 +24,7 @@
     transform: translateX(-100%);
     left: -47px;
     cursor: pointer;
+    z-index: 2;
 }
 
 .product-store > .item.-star {
@@ -69,6 +70,7 @@
 
 .product-store > .item.-info {
     text-align: right;
+    margin-right: 250px;
 }
 
 .product-store > .item.-last {
@@ -79,7 +81,8 @@
     text-transform: uppercase;
     float: left;
     font-weight: normal;
-    width: 300px;
+    text-align: left;
+    width: 100px;
 }
 
 .product-store > .text {
@@ -92,6 +95,10 @@
     color: inherit;
     font-size: 20px;
     text-decoration: none;
+}
+
+.product-store .action:hover {
+    color: #e24647;
 }
 
 @media (max-width:1200px) {
@@ -140,9 +147,11 @@
     .product-store > .item.-info {
         margin-left: auto;
         margin-right: auto;
+        width: 200px;
     }
 
     .product-store > .text {
         margin: 0 30px 30px;
     }
+    
 }

@@ -1,5 +1,5 @@
 let vlrCar = 10;
-const $buttonCar = document.querySelector(".-second");
+const $buttonCar = document.querySelector(".-addCar");
 
 $buttonCar.addEventListener("click", handleClick);
 
