@@ -6,7 +6,6 @@
     height: 500px;
     vertical-align: middle;
     margin-right: 150px;
-    border-radius: 0 150px 150px 0;
 }
 
 .main-carrousel .color {
@@ -14,10 +13,14 @@
     position: absolute;
     top: 0;
     width: 95%;
+    opacity: 0;
+    transition: opacity 200ms linear;
 }
 
 .main-carrousel .color.-isActive {
     z-index: 1;
+    opacity: 1;
+    transition: opacity 200ms linear;
 }
 
 .main-carrousel .bullets {
@@ -47,7 +50,7 @@
 .main-carrousel .bullet.-second {
     background-color: rgb(41, 119, 237);
 }
-.main-carrousel .bullet.-third{
+.main-carrousel .bullet.-third {
     background-color: rgb(52, 208, 52);
 }
 .main-carrousel .bullet.-forth {
